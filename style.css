@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-  font-size: 6em;
+  font-size: 4em;
+  white-space: nowrap;
   /* position: relative; */
   /* text-transform: uppercase; */
   font-family: poppins, sans-serif;
@@ -20,13 +21,10 @@ body {
   perspective: 800px;
   /* word-spacing: -12px; */
 }
-/* span {
-    filter: drop-shadow(0 0 50px rgba(255, 255, 255, 0.5));
-} */
 span {
+  filter: drop-shadow(0 0 50px rgba(255, 255, 255, 0.5));
   display: inline-block;
 }
-
 #star {
   perspective: 800px;
   animation: rotate 2s 1 forwards, opacity 0.1s infinite;
